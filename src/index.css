@@ -1,0 +1,35 @@
+.my-masonry-grid {
+  display: flex;
+  margin-left: -10px;
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 10px;
+  background-clip: padding-box;
+}
+
+.image-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-card:hover {
+  transform: scale(1.03); 
+}
+
+.like-btn, .dots-menu {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-card:hover .like-btn,
+.image-card:hover .dots-menu {
+  opacity: 1; 
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+}
